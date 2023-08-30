@@ -1,0 +1,139 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(209, 207, 207);
+}
+
+.left-section{
+  align-items: center;
+  display: flex;
+}
+
+.hamburger-menu{
+  height: 20px;
+  margin-left: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.youtube-logo{
+  height: 24px;
+
+}
+
+.middle-section{
+ 
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search-button{
+  height: 40px;
+  width: 60px;
+  border: 1px solid rgb(224, 212, 212);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0,0.05);
+  background-color:rgb(244, 244, 244);
+  margin-left: -1px;
+  cursor: pointer;
+}
+
+.voice-search-button{
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 100%;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.Search-bar{
+  flex:1;
+  height: 37px;
+  border: 1px solid rgb(224, 212, 212);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0,0.05);
+  width: 0;
+}
+
+.Search-bar::placeholder{
+  padding-left: 8px;
+  font-family:  roboto, arial;
+  font-size: 16px;
+  color: grey;  
+  cursor: pointer;
+}
+
+.search-icon{
+   height: 20px;
+   
+}
+
+.voice-search-icon{
+   height: 24px;
+   margin-top: 4px;
+}
+
+.right-section{
+  
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.upload-icon{
+  height: 24px;
+  cursor: pointer;
+}
+
+.youtube-apps-icon{
+  height: 24px;
+  cursor: pointer;
+}
+
+.notifications-icon{
+  height: 24px;
+  cursor: pointer;
+  
+}
+
+.notifications-icon-container{
+  position: relative;
+}
+
+.notifications-count{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgb(195, 34, 34);
+  color: white;
+  border-radius:100%;
+  font-family: roboto, arial;
+  font-size: 10px;
+  font-weight: 500;
+  padding-left: 3px;
+  padding-right: 3px ;
+
+}
+
+.my-channel-icon{
+  height: 30px;
+  border-radius: 100%;
+  cursor: pointer;
+}
